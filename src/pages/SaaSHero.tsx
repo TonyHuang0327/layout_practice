@@ -31,8 +31,8 @@ export const SaaSHero = () => {
                 borderRadius:'10px'
             }}>Join the beta</Button>
         </Box>
-    <Typography variant="h2" color="white">Your daily list of</Typography>
-    <Typography variant="h2" color="gray" sx={{mb:2}}>fresh freelancer leads</Typography>
+    <Typography variant="h3" color="white">Your daily list of</Typography>
+    <Typography variant="h3" color="gray" sx={{mb:2}}>fresh freelancer leads</Typography>
     <Typography variant="body1" color="gray">Orbi is an agent that finds freelance leads for you. So you can</Typography>
     <Typography variant="body1" color="gray" sx={{mb:4}}>focus on doing great work. not hunting for it.</Typography>
     <TextField
@@ -44,7 +44,7 @@ export const SaaSHero = () => {
         }
     }}
     sx={{
-    width:'60%',
+    width:'40%',
     '& .MuiOutlinedInput-root':{borderRadius:'10px'},
     '& .MuiInputBase-input': { color: 'white' },
     '& .MuiInputLabel-root': { color: 'gray' },
@@ -56,6 +56,7 @@ export const SaaSHero = () => {
   <Typography variant="caption" color="gray" sx={{
     mt:2
   }}>First 100 sign-ups get a lifetime discount</Typography>
+
     </Box>
   )
 }
